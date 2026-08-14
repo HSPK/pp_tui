@@ -9,6 +9,7 @@ from __future__ import annotations
 import asyncio
 
 import pytest
+
 from pi_tui.components.h_stack import HStack
 from pi_tui.components.loader import (
     DEFAULT_FRAMES,

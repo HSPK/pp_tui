@@ -12,6 +12,7 @@ from contextlib import contextmanager
 from pathlib import Path
 
 import pytest
+
 from pi_tui.components.image import Image, ImageOptions, ImageTheme
 from pi_tui.terminal_image import (
     CellDimensions,

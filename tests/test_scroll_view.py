@@ -9,6 +9,7 @@ import time
 import unicodedata
 
 import pytest
+
 from pi_tui.component import Component
 from pi_tui.components.scroll_view import ScrollView, ScrollViewOptions
 from pi_tui.layout import render_layout_frame

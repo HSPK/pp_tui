@@ -6,6 +6,7 @@ Python port of `packages/tui/test/stdin-buffer.test.ts`.
 from __future__ import annotations
 
 import pytest
+
 from pi_tui.stdin_buffer import StdinBuffer
 from pi_tui.testing import wait_until
 

@@ -13,6 +13,7 @@ from collections.abc import Iterator
 from contextlib import contextmanager
 
 import pytest
+
 from pi_tui.terminal_image import (
     CellDimensions,
     get_cell_dimensions,

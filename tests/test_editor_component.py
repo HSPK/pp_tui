@@ -9,6 +9,7 @@ accept a minimal editor, and optional members must be probed, not assumed.
 from __future__ import annotations
 
 import pytest
+
 from pi_tui.editor_component import (
     OPTIONAL_EDITOR_METHODS,
     REQUIRED_EDITOR_METHODS,

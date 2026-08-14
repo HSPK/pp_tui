@@ -12,6 +12,7 @@ import asyncio
 from collections.abc import Callable
 
 import pytest
+
 from pi_tui.component import Container
 from pi_tui.testing import FakeTerminal, MiniTerminalModel
 from pi_tui.tui import (

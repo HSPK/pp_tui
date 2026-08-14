@@ -21,6 +21,7 @@ import asyncio
 import re
 
 import pytest
+
 from pi_tui.components.markdown import DefaultTextStyle, Markdown, MarkdownOptions, MarkdownTheme
 from pi_tui.terminal_image import TerminalCapabilities, reset_capabilities_cache, set_capabilities
 from pi_tui.testing import FakeTerminal, MiniTerminalModel

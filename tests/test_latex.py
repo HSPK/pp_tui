@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import pytest
+
 from pi_tui.latex import RenderLatexOptions, render_latex
 
 _JACOBIAN_DOLLAR_CASES: list[tuple[str, str]] = [

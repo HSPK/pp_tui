@@ -23,6 +23,7 @@ import shutil
 from pathlib import Path
 
 import pytest
+
 from pi_tui.testing import FakeTerminal, MiniTerminalModel
 from pi_tui.tui import TuiStopOptions
 from pi_tui.tui_main_screen import (

@@ -10,6 +10,7 @@ from __future__ import annotations
 import asyncio
 
 import pytest
+
 from pi_tui.testing import FakeTerminal, MiniTerminalModel
 from pi_tui.tui import OverlayOptions
 from pi_tui.tui_main_screen import TuiMainScreen

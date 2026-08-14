@@ -14,6 +14,7 @@ import signal
 import sys
 
 import pytest
+
 from pi_tui.keys import set_kitty_protocol_active
 from pi_tui.terminal import (
     TERMINAL_PROGRESS_ACTIVE_SEQUENCE,

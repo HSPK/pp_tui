@@ -17,12 +17,13 @@ from __future__ import annotations
 import inspect
 from typing import Protocol, get_type_hints
 
+from test_editor import FakeAutocompleteProvider, apply_completion_replace_prefix
+from test_editor_autocomplete_edges import Provider as EdgeCaseProvider
+
 from pi_tui.autocomplete import CombinedAutocompleteProvider
 from pi_tui.components.editor import _AutocompleteProviderLike
 from pi_tui.terminal import StdinSource, Terminal, TerminalIo
 from pi_tui.testing import FakeStdinSource, FakeTerminal, FakeTerminalIo
-from test_editor import FakeAutocompleteProvider, apply_completion_replace_prefix
-from test_editor_autocomplete_edges import Provider as EdgeCaseProvider
 
 
 def _protocol_members(protocol: type) -> list[str]:

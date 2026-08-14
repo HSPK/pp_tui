@@ -8,6 +8,7 @@ import shutil
 import tempfile
 
 import pytest
+
 from pi_tui.autocomplete import (
     AppliedCompletion,
     AutocompleteItem,

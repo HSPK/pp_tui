@@ -16,6 +16,7 @@ import sys
 from dataclasses import replace
 
 import pytest
+
 from pi_tui.component import Component
 from pi_tui.components.scroll_view import ScrollView, ScrollViewOptions
 from pi_tui.components.stack import Stack, StackEntry

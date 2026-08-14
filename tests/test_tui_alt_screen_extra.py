@@ -12,6 +12,7 @@ import asyncio
 import base64
 
 import pytest
+
 from pi_tui.component import Component
 from pi_tui.components.image import Image, ImageOptions, ImageTheme
 from pi_tui.components.scroll_view import ScrollView, ScrollViewOptions

@@ -17,6 +17,7 @@ from collections.abc import Iterator
 from contextlib import contextmanager
 
 import pytest
+
 from pi_tui.keys import (
     Key,
     decode_kitty_printable,
